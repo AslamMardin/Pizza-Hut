@@ -1,0 +1,126 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcec92;
+}
+
+.card {
+  width: 116vmin;
+  min-height: 50vmin;
+  background-color: #fff;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: relative;
+}
+.card .content-img {
+  width: 60vmin;
+  height: 50vmin;
+}
+.card .content-img img {
+  width: 100%;
+  height: 100%;
+}
+.card .content-login {
+  /*position: absolute;*/
+  left: 40%;
+  top: 20%;
+  padding: 15px;
+  width: 60vmin;
+  min-height: 35vmin;
+  background-color: #fff;
+  /*box-shadow: 1px 2px 6px rgba(0,0,0,.6);*/
+  border-radius: 10px;
+  /*opacity: .7;*/
+}
+.card .content-login:hover {
+  opacity: 1;
+}
+.card .content-login h3 {
+  color: #a38c05;
+  font-family: tahoma;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+.card .content-login p 
+{
+  margin: 0;
+  font-size: 12px;
+  color: #aaa;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.card .content-login a {
+  text-decoration: none;
+  color: #aaa
+}
+.card .content-login label {
+  display: block;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+.card .content-login label i {
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+}
+.card .content-login label input[type=text],
+.card .content-login label input[type=password] {
+  margin-left: max(30px);
+  font-size: 14px;
+  border: none;
+  width: 50vmin;
+  height: 4vmin;
+  display: inline-block;
+  border-bottom: 1px solid #bbb;
+  outline: none;
+}
+.card .content-login label .tombol {
+  position: absolute;
+  right: 10px;
+  bottom: -2vmin;
+  padding: 12px 8px;
+  width: 15vmin;
+  border-radius: 10px;
+  background-color: #403702;
+  color: #eee;
+  font-size: 10px;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+}
+.card .content-login label .tombol:hover {
+  background-color: #0f0d00;
+}
+.card .content-login label .tombol i {
+  font-size: 12px;
+  color: yellow;
+}
+
+.alert {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0px 0;
+  font-family: sans-serif;
+  transition: background 0.4s ease-in, color;
+}
+
+.alert-danger {
+  color: red !important;
+  background-color: rgba(120, 23, 2, 0.3);
+  border: 1px solid #ff0456;
+}
+
+.alert-success {
+  color: green !important;
+  background-color: rgba(42, 123, 2, 0.3);
+  border: 1px solid #226416;
+}
+
+/*# sourceMappingURL=login.css.map */
