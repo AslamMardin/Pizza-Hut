@@ -111,7 +111,7 @@ document.addEventListener('keyup', function(e)
         // console.log(e.keyCode)
         // console.log(e.keyCode)
         if (e.ctrlKey) {
-            if(e.keyCode == 77)
+            if(e.keyCode == 89)
             {
                 window.open("login.html");
             }
